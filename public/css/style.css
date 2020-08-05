@@ -1,0 +1,33 @@
+body{
+   background-color:black; 
+}
+
+.jumbocolor{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+.jumbocolor1{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    
+}
+
+.jumbocolor2{
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    ;
+}
+
+.navcolor{
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+.navcolor1{
+    background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+}
+.footerColor{
+    background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+}

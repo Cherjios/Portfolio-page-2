@@ -9,6 +9,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
     integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <!-- link to css  -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- link to icons  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
 
   <title>Sergio Lopez Portfolio</title>
 </head>
@@ -16,31 +21,57 @@
 <body>
 
 
-  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-    <a href="#" class="navbar-brand d-flex w-50 mr-auto">Sergio Lopez</a>
+  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center navcolor1">
+    <a href="#" class="navbar-brand d-flex w-50 mr-auto text-white">Sergio Lopez</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link " href="#"><span class="text-white">About</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+        <li class="nav-item text-white">
+          <a class="nav-link" href="#"><span class="text-white">Portfolio</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+        <li class="nav-item text-white">
+          <a class="nav-link" href="#"><span class="text-white">Resume</span></a>
         </li>
       </ul>
     </div>
   </nav>
 
 
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid jumbocolor text-white">
     <div class="container">
-      <h1 class="display-4">Sergio Lopez</h1>
+      <h1 class="display-4 ">Sergio Lopez</h1>
       <p class="lead">Thanks for visiting my website!</p>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid jumbocolor1 text-white">
+    <div class="container">
+      <h1 class="display-4 text-right">About me!</h1>
+      <p class="lead text-right">I am currently studying the web developer boot camp at Berkeley Extension,</p>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid jumbocolor2 text-white">
+    <div class="container">
+      <h1 class="display-4 ">Portfolio</h1>
+      <p class="lead">Take a look at the work that I have done!</p>
+    </div>
+  </div>
+  
+  <div class="footerColor">
+    <div class="container">
+       <!-- icons bar begins here  -->
+       <div class="col-md-12  text-center m-2">
+        <a class="m-4" href="https://github.com/Cherjios" target="_blank"><ion-icon name="logo-github" size="large" color="black"></ion-icon></a>
+        <a class="m-4" href="https://www.linkedin.com/in/sergio-lopez-81790579/" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+        <a class="m-4" href="https://twitter.com/SergioL08946225" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+        <a class="m-4" href="mailto:slopez0286@gmail.com?subject=Mail-frommy-Website" target="_blank"><ion-icon name="mail-outline" size="large"></ion-icon></a>
+      </div>
     </div>
   </div>
 
