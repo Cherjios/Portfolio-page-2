@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Cherjios/Portfolio-page-2/issues"
   },
-  "homepage": "https://github.com/Cherjios/Portfolio-page-2#readme"
+  "homepage": "https://github.com/Cherjios/Portfolio-page-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
