@@ -50,3 +50,18 @@ img.Image-w{
     border-radius: 8px;
     width: 100%;
 }
+p.atext{
+    font-size:25px;
+}
+
+p.ptext{
+    font-size:22px;
+}
+
+@media (max-width: 575.98px) { 
+    p.ptext{
+        text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+    }
+}
