@@ -19,15 +19,15 @@ app.use(express.static("public"));
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/documents/index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 app.get("/about", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/documents/about.html"));
+  res.sendFile(path.join(__dirname, "./public/about.html"));
 });
 
 app.get("/portfolio", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/documents/portfolio.html"));
+  res.sendFile(path.join(__dirname, "./public/portfolio.html"));
 });
 
 app.get("/resume", function (req, res) {
