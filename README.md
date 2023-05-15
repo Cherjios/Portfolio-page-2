@@ -46,4 +46,4 @@ npm install express
 - [Link to LinkedIn](https://www.linkedin.com/in/sergio-lopez-81790579)
 
 ## Questions
- sc.lopezm@gmail.com
+ slopez0286@gmail.com
